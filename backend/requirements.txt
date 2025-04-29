@@ -1,0 +1,6 @@
+fastapi~=0.115.12
+uvicorn~=0.30.1           # Required to run FastAPI apps
+PyMuPDF~=1.24.1           # This provides 'fitz', more accurate than fitz placeholder
+requests~=2.32.3
+beautifulsoup4~=4.12.3    # For web scraping using bs4
+python-dotenv~=1.0.1      # For loading environment variables from .env
